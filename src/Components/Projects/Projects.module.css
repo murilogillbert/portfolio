@@ -1,0 +1,99 @@
+.projectContainer {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  
+  .imgContainer {
+    flex: 0 0 150px;
+    margin-right: 10vw;
+  }
+  
+  .imgContainer img {
+    width: 25vw;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .info {
+    flex: 1;
+  }
+  
+  .headline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .techs {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .techs img {
+    width: 50px;
+    height: auto;
+  }
+  
+  .description {
+    margin-top: 10px;
+  }
+  
+  /* Estilos para os botões */
+  .buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #23268a;
+    color: aliceblue;
+  }
+  
+  /* Estilos para dispositivos móveis */
+  @media (max-width: 768px) {
+    .projectContainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .imgContainer {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .imgContainer img {
+      width: 80vw;
+    }
+  
+    .headline {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .techs {
+      justify-content: center;
+    }
+  
+    .description {
+      text-align: center;
+    }
+  
+    .buttons {
+      justify-content: center;
+    }
+  }
+  

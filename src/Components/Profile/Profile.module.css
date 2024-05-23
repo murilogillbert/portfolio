@@ -1,0 +1,89 @@
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.profileImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.profileName {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.profileAge,
+.profileProfession {
+    font-size: 18px;
+    color: #c9c9c9;
+    margin-bottom: 5px;
+}
+
+.aboutContainer{
+    display: flex;}
+
+.aboutMe {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.aboutMe h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.aboutMe p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.more {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.socialLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.socialLinks img {
+    width: 30px;
+}
+
+.contactInfo {
+    display: flex;
+    font-size: 16px;
+    text-align: left;
+    justify-content:baseline;
+}
+
+.contactInfo p {
+
+    margin-right: 5vw;
+    margin-bottom: 10px;
+}
+
+.contactInfo a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contactInfo a:hover {
+    text-decoration: underline;
+}
