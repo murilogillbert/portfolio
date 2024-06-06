@@ -23,4 +23,6 @@ async function main(){
     console.log("Message sent: %s",info.messageId)
 }
 
+//Wait to pull
+
 main().catch(console.error)
