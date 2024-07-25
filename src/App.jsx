@@ -1,20 +1,21 @@
-import { useState } from "react";
 import "./App.css";
 import Profile from "./Components/Profile/Profile";
 import profileImg from "./assets/profile.jpg";
 import Project from "./Components/Projects/Projects";
+import Navbar from "./Components/Navbar/Navbar";
+
 import TechnologiesList from "./Components/TechnologiesList/TechnologiesList";
 
 function App() {
   const imgProjects = [
     {
-      img: "src/assets/norway.jpg",
-      name: "Uma bela imagem de Norway",
+      img: "src/assets/sites/infocap.png",
+      name: "Infocap - Plataformas de Cursos",
       description:
-        "Nesta Imagem podemos ver que abnf ujabfgabouf bnasoufb ougoas gubnaopf uabgoang oabuo gfnainguobanog uaubgabg bugnb",
+        "O front do site foi feito com React, JS e CSS, utilizando de API's RESTFull para acessar um banco de dados Postgre gerenciado por código Java. O Site é hosteado na Amazon",
       techs: [{ img: "src/assets/techs/html.png", name: "html" }],
-      linkSite: "https://example.com/site1",
-      linkRepositorio: "https://github.com/user/repo1"
+      linkSite: "https://infocap.vercel.app/",
+      linkRepositorio: "https://github.com/InfoCorpUFMT/InfoCap-FRONT"
     },
     {
       img: "src/assets/norway.jpg",
@@ -39,7 +40,7 @@ function App() {
   return (
     <>
       <nav>
-        {/* Conteúdo do nav */}
+        <Navbar/>
       </nav>
       <main>
       <section className="profile">

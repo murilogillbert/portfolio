@@ -26,12 +26,12 @@ export default function Project({ img, name, description, techs, linkSite, linkR
       <div className={styles.info}>
         <div className={styles.headline}>
           <h2>{name}</h2>
-          <div className={styles.techs}>
+        </div>
+        <div className={styles.techs}>
             {techs.map((item, index) => (
               <img key={index} src={item.img} alt={item.name} />
             ))}
           </div>
-        </div>
         <div className={styles.description}>
           <p>{description}</p>
         </div>
